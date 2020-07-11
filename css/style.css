@@ -1,0 +1,290 @@
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+/* navigation bar */
+.navbar {
+  padding-bottom: 4rem;
+  margin-bottom: 5%;
+  background-color: #f54291;
+}
+
+.navbar-contact {
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+hr {
+  border: dotted #14b1ab 6px;
+  border-bottom: none;
+  width: 50%;
+}
+
+/* title */
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 5% 10% 7%;
+}
+
+/* title image */
+.title-image {
+  padding-top: 10%;
+  width: 100%;
+}
+
+.big-heading {
+  font-family: "Montserrat-Black 900", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.colored-section {
+  background-color: #ff427f;
+  color: #fff;
+}
+
+/* national parks */
+#national-parks {
+  background-color: #a0c1b8;
+  font-family: 'Ubuntu', serif;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+#national-parks a {
+  color: #438a5e;
+}
+
+.parks {
+  padding: 3% 15% 3%;
+}
+
+.park-img-table {
+  width: 100%;
+  position: relative;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.park-image-1 {
+  width: 30%;
+  float: left;
+  margin-right: 40px;
+}
+
+.park-image-2 {
+  width: 30%;
+  float: right;
+  margin-left: 40px;
+}
+
+/* more-info section */
+#more-information {
+  background-color: #e0dede;
+}
+
+.more-info {
+  padding: 7% 0 3%;
+  color: red;
+  font-weight: bold;
+}
+
+.info-table {
+  font-family: 'Ubuntu';
+  margin: auto;
+  padding: 0 15% 7%;
+  color: #3b6978;
+}
+
+/* protected areas section */
+#protected-areas {
+  text-align: center;
+  line-height: 1.5;
+  padding: 10%;
+  background-color: #f5f5f5;
+}
+
+.col-lg-6 {
+  padding: 5%;
+}
+
+.balanki a {
+  color: #3b6978;
+}
+
+/* footer section */
+#footer {
+  padding-top: 3%;
+  text-align: center;
+  height: 200px;
+  background-color: #4f4f4f;
+  color: #fff;
+}
+
+.footer {
+  padding-top: 2%;
+}
+
+.social-icon {
+  color: #000;
+  margin: 20px 10px;
+  font-size: 30px;
+}
+
+#footer a {
+  color: #12947f;
+}
+
+/* contact */
+.details {
+  text-align: center;
+  background-color: #c0c0c0;
+}
+
+.contact-heading {
+  font-size: 4.5rem;
+  font-family: 'Sacramento', serif;
+  margin: auto;
+  padding: 3%;
+}
+
+.user-info {
+  margin: auto;
+  width: 50%;
+  padding-bottom: 5%;
+}
+
+.contact {
+  margin: auto;
+  width: 50%;
+  padding-bottom: 2%;
+}
+
+/* about */
+.image-about {
+  padding: 50px;
+}
+
+.about-page {
+  padding: 50px;
+}
+
+.row-backg {
+  background-color: #bbf1c8;
+}
+
+/* gallery */
+#photos {
+  padding: 3%;
+}
+
+.gallery {
+  border: 1px solid #ccc;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* privacy */
+.privacy {
+  padding: 3% 7%;
+  background-color: #ccafaf;
+}
+
+.privacy h3, h5 {
+  text-align: justify;
+}
+
+/* seperate national parks  */
+#hyper a {
+  color: #14b1ab;
+}
+
+.container {
+  background-color: #f0ece3;
+}
+
+.description-section {
+  text-align: justify;
+  padding: 3% 7%;
+}
+
+.description-section h5 {
+  text-align: justify;
+}
+
+.para-intro {
+  font-family: 'Ubuntu', serif;
+  font-size: 1.5;
+  line-height: 1.5;
+  padding: 0 0 3%;
+}
+
+/* media queries */
+@media (max-width: 400px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
